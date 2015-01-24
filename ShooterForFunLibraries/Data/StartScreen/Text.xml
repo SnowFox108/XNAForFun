@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TextContents>
+  <TextMessage>
+    <Id>StartButton</Id>
+    <Path>Fonts/Broadway</Path>    
+    <Text>Start</Text>
+  </TextMessage>
+</TextContents>

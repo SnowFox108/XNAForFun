@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.7.2">
+    <id>PCLStorage</id>
+    <version>0.9.1</version>
+    <title>PCL Storage - Portable Storage APIs</title>
+    <authors>Daniel Plaisted</authors>
+    <owners>Daniel Plaisted</owners>
+    <licenseUrl>http://pclstorage.codeplex.com/license</licenseUrl>
+    <projectUrl>http://pclstorage.codeplex.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>PCL Storage provides a consistent, portable set of local file IO APIs for .NET, Windows Phone, Windows Store, Xamarin.iOS, Xamarin.Android, and Silverlight.  This makes it easier to create cross-platform .NET libraries and apps.</description>
+    <summary>PCL Storage provides a consistent, portable set of local file IO APIs across .NET platforms.</summary>
+    <releaseNotes>Added Xamarin.iOS and Xamarin.Android support.  Dropped Windows Phone 7.x support.</releaseNotes>
+    <copyright />
+    <language />
+    <tags>io storage file portable pcl winrt android ios xamarin monoandroid monodroid monotouch</tags>
+    <dependencies>
+      <dependency id="Microsoft.Bcl.Async" version="1.0.165" />
+      <dependency id="Microsoft.Bcl" version="1.1.6" />
+    </dependencies>
+  </metadata>
+</package>

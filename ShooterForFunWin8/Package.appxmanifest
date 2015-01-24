@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="a8104c3d-67e5-4241-a2f9-e2ed6f8c1079" Publisher="CN=Mike" Version="1.0.0.1" />
+  <Properties>
+    <DisplayName>ShooterForFunWin8</DisplayName>
+    <PublisherDisplayName>Mike</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="ShooterForFunWin8.App">
+      <VisualElements DisplayName="ShooterForFunWin8" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="ShooterForFunWin8" ForegroundText="light" BackgroundColor="#464646">
+        <DefaultTile ShowName="logoOnly" />
+        <SplashScreen Image="Assets\SplashScreen.png" />
+        <InitialRotationPreference>
+          <Rotation Preference="landscape" />
+          <Rotation Preference="landscapeFlipped" />
+        </InitialRotationPreference>
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{39DE88AE-833A-4AEF-98E9-BA630BB9A7AA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ShooterForFunLibraries</RootNamespace>
+    <AssemblyName>ShooterForFunLibraries</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Profile78</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="GameElements\Ballon.cs" />
+    <Compile Include="GameElements\GameLevels\EnemyManager.cs" />
+    <Compile Include="GameElements\GameLevels\IGameLevel.cs" />
+    <Compile Include="GameElements\GameLevels\Level1.cs" />
+    <Compile Include="GameElements\Intelligents\IFireLogic.cs" />
+    <Compile Include="GameElements\Intelligents\SimpleFireLogic.cs" />
+    <Compile Include="GameElements\Movements\BaseMovement.cs" />
+    <Compile Include="GameElements\Movements\IMovement.cs" />
+    <Compile Include="GameElements\Movements\SimpleMove.cs" />
+    <Compile Include="GameElements\ScoreManager.cs" />
+    <Compile Include="GameElements\Weapons\Bullet.cs" />
+    <Compile Include="GameElements\Weapons\BulletManager.cs" />
+    <Compile Include="GameElements\Weapons\IWeapon.cs" />
+    <Compile Include="GameElements\Weapons\LaserGun.cs" />
+    <Compile Include="Graphics\CompositeControls\Button.cs" />
+    <Compile Include="Graphics\CompositeControls\FPSdisplay.cs" />
+    <Compile Include="Graphics\CompositeControls\Label.cs" />
+    <Compile Include="GameElements\Player.cs" />
+    <Compile Include="Graphics\Shape.cs" />
+    <Compile Include="Graphics\TextMessage.cs" />
+    <Compile Include="Graphics\Image.cs" />
+    <Compile Include="Helps\GameSettings.cs" />
+    <Compile Include="Infrastructures\ContentLoader\ContentLoader.cs" />
+    <Compile Include="Infrastructures\ContentLoader\GameContentLoader.cs" />
+    <Compile Include="Infrastructures\ContentLoader\GameScreenLoader.cs" />
+    <Compile Include="Infrastructures\ContentLoader\ImageContents.cs" />
+    <Compile Include="Infrastructures\ContentLoader\MusicContents.cs" />
+    <Compile Include="Infrastructures\ContentLoader\ShapeContents.cs" />
+    <Compile Include="Infrastructures\ContentLoader\SoundContents.cs" />
+    <Compile Include="Infrastructures\ContentLoader\StartScreenLoader.cs" />
+    <Compile Include="Infrastructures\ContentLoader\TextContents.cs" />
+    <Compile Include="Infrastructures\TextAlign.cs" />
+    <Compile Include="Infrastructures\XMLManager.cs" />
+    <Compile Include="Infrastructures\BaseDrawableModel.cs" />
+    <Compile Include="Inputs\ControlActions\GameScreenAction.cs" />
+    <Compile Include="Inputs\ControlActions\PlayerAction.cs" />
+    <Compile Include="Inputs\InputManager.cs" />
+    <Compile Include="Inputs\InputKeyboardState.cs" />
+    <Compile Include="Inputs\InputMouseState.cs" />
+    <Compile Include="Inputs\InputTouchState.cs" />
+    <Compile Include="Inputs\ControlActions\StartScreenAction.cs" />
+    <Compile Include="Screens\GameScreen.cs" />
+    <Compile Include="Screens\IScreen.cs" />
+    <Compile Include="Screens\ScreenManager.cs" />
+    <Compile Include="Infrastructures\IDrawModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Screens\StartScreen.cs" />
+    <Compile Include="Sounds\BaseSound.cs" />
+    <Compile Include="Sounds\ISound.cs" />
+    <Compile Include="Sounds\Music.cs" />
+    <Compile Include="Sounds\Sound.cs" />
+    <Compile Include="Sounds\SoundManager.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="Microsoft.Threading.Tasks">
+      <HintPath>..\packages\Microsoft.Bcl.Async.1.0.165\lib\portable-net45+win8+wp8\Microsoft.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Threading.Tasks.Extensions">
+      <HintPath>..\packages\Microsoft.Bcl.Async.1.0.165\lib\portable-net45+win8+wp8\Microsoft.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoGame.Framework, Version=3.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>packages\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="PCLStorage">
+      <HintPath>..\packages\PCLStorage.0.9.1\lib\portable-net45+sl4+wp8+win8+monoandroid+monotouch\PCLStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="PCLStorage.Abstractions">
+      <HintPath>..\packages\PCLStorage.0.9.1\lib\portable-net45+sl4+wp8+win8+monoandroid+monotouch\PCLStorage.Abstractions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Data\GameSystem\Player.xml" />
+    <EmbeddedResource Include="Data\StartScreen\Images.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Data\StartScreen\Shapes.xml" />
+    <EmbeddedResource Include="Data\StartScreen\Text.xml" />
+    <EmbeddedResource Include="Data\GameScreen\Images.xml" />
+    <EmbeddedResource Include="Data\GameSystem\Enemies.xml" />
+    <EmbeddedResource Include="Data\GameSystem\Weapons.xml" />
+    <EmbeddedResource Include="Data\GameSystem\Sounds.xml" />
+    <EmbeddedResource Include="Data\StartScreen\Musics.xml" />
+    <EmbeddedResource Include="Data\GameScreen\Musics.xml" />
+    <Content Include="packages\MonoGame.Framework.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>GIGABYTEP67-PC</Machine>
+    <WindowsUser>Mike</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>a8104c3d-67e5-4241-a2f9-e2ed6f8c1079</PackageIdentityName>
+    <IntermediateOutputPath>F:\MyWorkSpace\ShooterForFun\ShooterForFunWin8\obj\x86\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>E9A1D6DAE3C801153414C575D0A1868694D857130158B70BB431E228F155A4BC</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>a8104c3d-67e5-4241-a2f9-e2ed6f8c1079_1.0.0.1_x86__dg3rhm3j3sdc0</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>a8104c3d-67e5-4241-a2f9-e2ed6f8c1079_dg3rhm3j3sdc0!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>a8104c3d-67e5-4241-a2f9-e2ed6f8c1079</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Mike</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.1</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="F:\MyWorkSpace\ShooterForFun\ShooterForFunWin8\bin\Windows8\x86\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-07T00:31:04.876</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="F:\MyWorkSpace\ShooterForFun\ShooterForFunWin8\bin\Windows8\x86\Debug\ShooterForFunWin8.exe">
+      <PackagePath>ShooterForFunWin8.exe</PackagePath>
+      <Modified>2014-11-07T00:31:04.420</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\MSBuild\..\MonoGame\v3.0\Assemblies\Windows8\MonoGame.Framework.dll">
+      <PackagePath>MonoGame.Framework.dll</PackagePath>
+      <Modified>2014-04-05T21:55:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\MSBuild\..\MonoGame\v3.0\Assemblies\Windows8\SharpDX.Direct2D1.dll">
+      <PackagePath>SharpDX.Direct2D1.dll</PackagePath>
+      <Modified>2014-04-05T20:51:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\MSBuild\..\MonoGame\v3.0\Assemblies\Windows8\SharpDX.Direct3D11.dll">
+      <PackagePath>SharpDX.Direct3D11.dll</PackagePath>
+      <Modified>2014-04-05T20:51:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\MSBuild\..\MonoGame\v3.0\Assemblies\Windows8\SharpDX.dll">
+      <PackagePath>SharpDX.dll</PackagePath>
+      <Modified>2014-04-05T20:51:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\MSBuild\..\MonoGame\v3.0\Assemblies\Windows8\SharpDX.DXGI.dll">
+      <PackagePath>SharpDX.DXGI.dll</PackagePath>
+      <Modified>2014-04-05T20:51:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\MSBuild\..\MonoGame\v3.0\Assemblies\Windows8\SharpDX.MediaFoundation.dll">
+      <PackagePath>SharpDX.MediaFoundation.dll</PackagePath>
+      <Modified>2014-04-05T20:51:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\MSBuild\..\MonoGame\v3.0\Assemblies\Windows8\SharpDX.XAudio2.dll">
+      <PackagePath>SharpDX.XAudio2.dll</PackagePath>
+      <Modified>2014-04-05T20:51:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\MSBuild\..\MonoGame\v3.0\Assemblies\Windows8\SharpDX.XInput.dll">
+      <PackagePath>SharpDX.XInput.dll</PackagePath>
+      <Modified>2014-04-05T20:51:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MyWorkSpace\ShooterForFun\ShooterForFunLibraries\bin\Debug\ShooterForFunLibraries.dll">
+      <PackagePath>ShooterForFunLibraries.dll</PackagePath>
+      <Modified>2014-11-07T00:31:03.279</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MyWorkSpace\ShooterForFun\ShooterForFunWin8\Content\Fonts\Broadway.xnb">
+      <PackagePath>Content\Fonts\Broadway.xnb</PackagePath>
+      <Modified>2014-08-21T17:58:11.601</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MyWorkSpace\ShooterForFun\ShooterForFunWin8\Content\Graphics\bgLayer1.xnb">
+      <PackagePath>Content\Graphics\bgLayer1.xnb</PackagePath>
+      <Modified>2014-08-21T17:58:11.817</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MyWorkSpace\ShooterForFun\ShooterForFunWin8\Content\Graphics\bgLayer2.xnb">
+      <PackagePath>Content\Graphics\bgLayer2.xnb</PackagePath>
+      <Modified>2014-08-21T17:58:11.878</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MyWorkSpace\ShooterForFun\ShooterForFunWin8\Content\Graphics\endMenu.xnb">
+      <PackagePath>Content\Graphics\endMenu.xnb</PackagePath>
+      <Modified>2014-08-21T17:58:11.757</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MyWorkSpace\ShooterForFun\ShooterForFunWin8\Content\Graphics\explosion.xnb">
+      <PackagePath>Content\Graphics\explosion.xnb</PackagePath>
+      <Modified>2014-08-21T17:58:11.921</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MyWorkSpace\ShooterForFun\ShooterForFunWin8\Content\Graphics\laser.xnb">
+      <PackagePath>Content\Graphics\laser.xnb</PackagePath>
+      <Modified>2014-08-21T17:58:11.801</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MyWorkSpace\ShooterForFun\ShooterForFunWin8\Content\Graphics\mainbackground.xnb">
+      <PackagePath>Content\Graphics\mainbackground.xnb</PackagePath>
+      <Modified>2014-08-21T17:58:11.897</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MyWorkSpace\ShooterForFun\ShooterForFunWin8\Content\Graphics\mainMenu.xnb">
+      <PackagePath>Content\Graphics\mainMenu.xnb</PackagePath>
+      <Modified>2014-08-21T17:58:13.135</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MyWorkSpace\ShooterForFun\ShooterForFunWin8\Content\Graphics\mineAni.xnb">
+      <PackagePath>Content\Graphics\mineAni.xnb</PackagePath>
+      <Modified>2014-08-21T17:58:11.937</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MyWorkSpace\ShooterForFun\ShooterForFunWin8\Content\Graphics\playerAni.xnb">
+      <PackagePath>Content\Graphics\playerAni.xnb</PackagePath>
+      <Modified>2014-08-21T17:58:11.946</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MyWorkSpace\ShooterForFun\ShooterForFunWin8\Content\Sounds\explosion.xnb">
+      <PackagePath>Content\Sounds\explosion.xnb</PackagePath>
+      <Modified>2014-08-21T17:58:12.103</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MyWorkSpace\ShooterForFun\ShooterForFunWin8\Content\Sounds\gameMusic.xnb">
+      <PackagePath>Content\Sounds\gameMusic.xnb</PackagePath>
+      <Modified>2014-08-21T17:58:12.176</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MyWorkSpace\ShooterForFun\ShooterForFunWin8\Content\Sounds\laserFire.xnb">
+      <PackagePath>Content\Sounds\laserFire.xnb</PackagePath>
+      <Modified>2014-08-21T17:58:12.115</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MyWorkSpace\ShooterForFun\ShooterForFunWin8\Content\Sounds\menuMusic.xnb">
+      <PackagePath>Content\Sounds\menuMusic.xnb</PackagePath>
+      <Modified>2014-08-21T17:58:12.123</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MyWorkSpace\ShooterForFun\ShooterForFunWin8\Content\Fonts\Tahoma.xnb">
+      <PackagePath>Content\Fonts\Tahoma.xnb</PackagePath>
+      <Modified>2014-08-21T17:58:11.611</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MyWorkSpace\ShooterForFun\ShooterForFunWin8\Content\Sounds\gameMusic.wma">
+      <PackagePath>Content\Sounds\gameMusic.wma</PackagePath>
+      <Modified>2014-08-21T17:58:13.042</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MyWorkSpace\ShooterForFun\ShooterForFunWin8\Content\Sounds\menuMusic.wma">
+      <PackagePath>Content\Sounds\menuMusic.wma</PackagePath>
+      <Modified>2014-08-21T17:58:12.555</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MyWorkSpace\ShooterForFun\ShooterForFunWin8\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-08-21T17:58:11.354</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MyWorkSpace\ShooterForFun\ShooterForFunWin8\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-08-21T17:58:11.454</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MyWorkSpace\ShooterForFun\ShooterForFunWin8\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-08-21T17:58:11.512</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MyWorkSpace\ShooterForFun\ShooterForFunWin8\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-08-21T17:58:11.602</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MyWorkSpace\ShooterForFun\ShooterForFunWin8\bin\Windows8\x86\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2014-08-21T17:58:11.206</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MyWorkSpace\ShooterForFun\ShooterForFunWin8\bin\Windows8\x86\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2014-08-21T17:58:11.529</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MyWorkSpace\ShooterForFun\ShooterForFunWin8\bin\Windows8\x86\Debug\GamePage.xaml">
+      <PackagePath>GamePage.xaml</PackagePath>
+      <Modified>2014-08-21T17:58:11.165</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MyWorkSpace\ShooterForFun\ShooterForFunLibraries\packages\MonoGame.Framework.dll">
+      <PackagePath>ShooterForFunLibraries\packages\MonoGame.Framework.dll</PackagePath>
+      <Modified>2014-04-05T21:55:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MyWorkSpace\ShooterForFun\ShooterForFunWin8\bin\Windows8\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-11-08T14:55:48.916</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ShapeContents>
+  <Shape>
+    <Id>MenuButton</Id>
+    <Position>
+      <X>100</X>
+      <Y>80</Y>
+    </Position>
+  </Shape>
+</ShapeContents>

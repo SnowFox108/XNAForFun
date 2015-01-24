@@ -1,0 +1,2 @@
+F:\MyWorkSpace\ShooterForFun\ShooterForFunLibraries\ShooterForFunLibraries.csproj;neutral
+F:\MyWorkSpace\ShooterForFun\ShooterForFunWin8\ShooterForFunWin8.csproj;x86

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ImageContents>
+  <Image>
+    <Id>Ballon</Id>
+    <Path>Graphics/mineAni</Path>
+    <Dimension>
+      <X>47</X>
+      <Y>61</Y>
+    </Dimension>
+    <Animations>
+      <FramesPerRow>1</FramesPerRow>
+      <FramesPerColumn>8</FramesPerColumn>
+      <TotalFrames>8</TotalFrames>
+      <Speed>30</Speed>
+      <IsActive>true</IsActive>
+      <IsLooping>true</IsLooping>
+    </Animations>
+  </Image>
+  <Image>
+    <Id>Explosion</Id>
+    <Path>Graphics/explosion</Path>
+    <Dimension>
+      <X>133.5</X>
+      <Y>134</Y>
+    </Dimension>
+    <Animations>
+      <FramesPerRow>1</FramesPerRow>
+      <FramesPerColumn>12</FramesPerColumn>
+      <TotalFrames>12</TotalFrames>
+      <Speed>30</Speed>
+      <IsActive>true</IsActive>
+      <IsLooping>false</IsLooping>
+    </Animations>
+  </Image>
+</ImageContents>

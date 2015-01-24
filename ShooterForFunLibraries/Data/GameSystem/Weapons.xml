@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ImageContents>
+  <Image>
+    <Id>Laser</Id>
+    <Path>Graphics/laser</Path>
+    <Dimension>
+      <X>46</X>
+      <Y>16</Y>
+    </Dimension>
+  </Image>
+</ImageContents>

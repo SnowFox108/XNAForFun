@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ImageContents>
+  <Image>
+    <Id>Player</Id>
+    <Path>Graphics/playerAni</Path>
+    <Dimension>
+      <X>115</X>
+      <Y>69</Y>
+    </Dimension>
+    <Animations>
+      <FramesPerRow>1</FramesPerRow>
+      <FramesPerColumn>8</FramesPerColumn>
+      <TotalFrames>8</TotalFrames>
+      <Speed>30</Speed>
+      <IsActive>true</IsActive>
+      <IsLooping>true</IsLooping>
+    </Animations>
+  </Image>
+</ImageContents>

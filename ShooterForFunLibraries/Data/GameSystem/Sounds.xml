@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SoundContents>
+  <Sound>
+    <Id>LaserFire</Id>
+    <Path>Sounds/laserFire</Path>
+  </Sound>
+  <Sound>
+    <Id>Explosion</Id>
+    <Path>Sounds/explosion</Path>
+  </Sound>
+</SoundContents>

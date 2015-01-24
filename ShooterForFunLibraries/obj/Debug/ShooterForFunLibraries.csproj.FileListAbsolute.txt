@@ -1,0 +1,14 @@
+F:\MyWorkSpace\ShooterForFun\ShooterForFunLibraries\bin\Debug\ShooterForFunLibraries.dll
+F:\MyWorkSpace\ShooterForFun\ShooterForFunLibraries\bin\Debug\ShooterForFunLibraries.pdb
+F:\MyWorkSpace\ShooterForFun\ShooterForFunLibraries\bin\Debug\Microsoft.Threading.Tasks.dll
+F:\MyWorkSpace\ShooterForFun\ShooterForFunLibraries\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+F:\MyWorkSpace\ShooterForFun\ShooterForFunLibraries\bin\Debug\MonoGame.Framework.dll
+F:\MyWorkSpace\ShooterForFun\ShooterForFunLibraries\bin\Debug\PCLStorage.Abstractions.dll
+F:\MyWorkSpace\ShooterForFun\ShooterForFunLibraries\bin\Debug\PCLStorage.dll
+F:\MyWorkSpace\ShooterForFun\ShooterForFunLibraries\bin\Debug\Microsoft.Threading.Tasks.xml
+F:\MyWorkSpace\ShooterForFun\ShooterForFunLibraries\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+F:\MyWorkSpace\ShooterForFun\ShooterForFunLibraries\bin\Debug\PCLStorage.xml
+F:\MyWorkSpace\ShooterForFun\ShooterForFunLibraries\bin\Debug\PCLStorage.Abstractions.xml
+F:\MyWorkSpace\ShooterForFun\ShooterForFunLibraries\obj\Debug\ShooterForFunLibraries.dll
+F:\MyWorkSpace\ShooterForFun\ShooterForFunLibraries\obj\Debug\ShooterForFunLibraries.pdb
+F:\MyWorkSpace\ShooterForFun\ShooterForFunLibraries\obj\Debug\ShooterForFunLibraries.csprojResolveAssemblyReference.cache
